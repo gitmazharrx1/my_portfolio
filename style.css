@@ -25,9 +25,7 @@ img{
     background-image: url("image/top-banner.png");
     background-repeat: no-repeat;
 }
-section1{
-    height: 500px;
-}
+
 .section1link{
     
     background-image: linear-gradient(45deg,lightsalmon,tomato);
@@ -37,4 +35,59 @@ section1{
     font-weight: 700;
     text-decoration: none;
     color: white;
+}
+.section2image{
+    width: 40%;
+    float: left;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.section2text{
+    float: left;
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.section2link{
+    
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+.section2{
+    background-image: url("image/dream-bg.png");
+} 
+
+
+
+img{
+    width: 100%;
+}
+.exp{
+   margin-top: 650px;
+
+}
+.fullstack1{
+    width: 40%;
+    margin-left: 100px;
+    float: left;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 5px solid red;
+}
+.fullstack2{
+    width: 40%;
+    margin-right: 100px;
+    float: right;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 5px solid blue;
+}
+.footer{
+    height: 250px;
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
 }
